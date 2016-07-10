@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dip"
+    android:paddingLeft="16dip"
+    android:paddingTop="16dip"
+    android:background="#ddd">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ist Band"
+        android:textColor="#000"
+        android:textSize="10pt"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dip"
+        android:id="@+id/first"
+       />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/firstmenu"
+        android:textAlignment="center"
+        android:background="#fff"
+        android:popupBackground="#eeffff"
+        android:prompt="@string/title"
+        >
+    </Spinner>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="IInd Band"
+        android:textColor="#000"
+        android:textSize="10pt"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dip"
+        android:id="@+id/second"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/secondmenu"
+android:prompt="@string/title"
+        android:background="#fff"
+        android:popupBackground="#eeffff"
+        android:textAlignment="center"
+       >
+    </Spinner>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="IIIrd Band"
+        android:textSize="10pt"
+        android:layout_marginTop="10dip"
+        android:textStyle="bold|italic"
+        android:id="@+id/third"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/thirdmenu"
+        android:prompt="@string/title"
+        android:background="#fff"
+        android:popupBackground="#eeffff"
+        android:textAlignment="center"
+        >
+    </Spinner>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="10pt"
+        android:textStyle="bold|italic"
+        android:text="IVth Band"
+        android:layout_marginTop="10dip"
+        android:id="@+id/fourth"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/fourthmenu"
+        android:prompt="@string/title"
+        android:background="#fff"
+        android:popupBackground="#eeffff"
+        android:textAlignment="center"
+        >
+    </Spinner>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dip"
+        android:text="Resistance Value : "
+        android:id="@+id/result"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:background="#ffffff"
+        android:text="Calculate"
+        android:layout_marginTop="20dip"
+        android:layout_marginStart="115dp"
+        android:id="@+id/b1"
+        />
+
+</LinearLayout>
